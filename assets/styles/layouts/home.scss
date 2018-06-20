@@ -1,0 +1,32 @@
+
+.homewrapper{
+    margin: 1rem 0 1rem 0;
+}
+
+.product-image{
+    img {
+        width: 100%;
+        border: 1px solid #ddd;
+    }
+}
+
+.productwrapper{
+    margin: 1rem 0 2rem 0;
+}
+
+.product-name {
+    text-align: center;
+}
+.product-price {
+    text-align: center;
+}
+.add-to-cart {
+    text-align: center;
+}
+.add-to-cart button {
+    background: #6b9915;
+    color: white;
+    border: none;
+    font-size: 0.7rem;
+    padding: 0.3rem 2rem;
+}

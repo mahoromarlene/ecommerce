@@ -1,0 +1,10 @@
+/node_modules
+bundle.js
+package-lock.json
+main.css
+npm-debug.log
+.DS_Store
+
+# IntelliJ
+*.iml
+/.idea

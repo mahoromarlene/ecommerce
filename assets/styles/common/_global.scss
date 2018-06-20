@@ -1,0 +1,46 @@
+body {
+    font-family: $font-light !important;
+}
+
+.layout {
+	&.container {
+		max-width: 100%;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 18px;
+		box-sizing: border-box;
+        position: relative;
+
+		@media (min-width: $tabletS-min) {
+		    padding: 0 25px;
+        }
+        
+		@media (min-width: $tablet-min) {
+			max-width: $container-tablet;
+			margin: 0 auto;
+			padding: 0;
+		}
+
+		@media (min-width: $desktop-min) {
+			max-width: $container-desktop;
+			padding: 0;
+		}
+
+		@media (min-width: $desktopHd-min) {
+			max-width: $container-desktopHd;
+			padding: 0;
+		}
+	}
+}
+
+.col-reset {
+	padding: 0 !important;
+}
+
+.main-app-wrapper {
+    @extend .reset-row;
+    //border: 1px solid red;
+    min-height: 100vh;
+}
+
+
